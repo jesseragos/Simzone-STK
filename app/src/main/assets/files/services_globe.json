@@ -1,0 +1,261 @@
+{
+
+	"BalInquiry": {
+		"receiverKeyword": "222",
+		"message": "BAL",
+		"cost": 0
+	},
+
+	"CardLoad": {
+		"voicePrompt": true,
+		"dialNumber": "223",
+		"instructions": "Enter 10-digit call card number then the 6-digit PIN",
+		"pinLength": 16
+	},
+	
+	"ShareLoad": {
+		"isNumReceiver": true,
+		"receiverKeyword": "2%rno%",
+		"message": "%amt%"
+	},
+	
+	"PromoOffers": {
+		"Call": [
+            {
+                "promoKey": "GOCALL100",
+                "description": "Validity: 7 Days - Go for longer talk time with the BIGGER Globe Prepaid GoCALL100. Share the latest chika updates with your family and friends with 500 minutes of consumable calls to Globe/TM, valid for 7 days for only P100!",
+                "sendTo": "8888",
+                "cost": 100
+            },
+			{
+                "promoKey": "DUO",
+                "description": "Validity: 30 Days - Mobile + landline in 1 phone for P450",
+                "sendTo": "8888",
+                "cost": 450
+            },
+			{
+                "promoKey": "SUPERDUO",
+                "description": "Validity: 30 Days - Mobile + landline in 1 phone with unli calls to Globe/TM for P599",
+                "sendTo": "8888",
+                "cost": 599
+            }
+        ],
+		"Text": [
+		    {
+                "promoKey": "ATXT20",
+                "description": "Validity: 1 Day - Enjoy 250 texts to all network for only P20",
+                "sendTo": "8888",
+                "cost": 20
+            },
+            {
+                "promoKey": "GOUNLI20",
+                "description": "Validity: 1 Day - Bond with friends and family with GoUnli20. Now P20 gets you unlimited calls to Globe/TM, 20 texts to all networks, and 15MB of all day mobile surfing.",
+                "sendTo": "8888",
+                "cost": 20
+            },
+            {
+                "promoKey": "GOUNLI25",
+                "description": "Validity: 1 Day - Now you can express yourself the way you want to. With the new GoUNLI25, you can enjoy unlimited texts and calls to Globe/TM, unlimited Facebook, plus your choice of one free app from the following: Twitter, Instagram, Google, Yahoo, Viber, Foursquare, WeChat. Enjoy all these for 1 day, P25 lang! No WiFi needed!",
+                "sendTo": "8888",
+                "cost": 25
+            },
+            {
+                "promoKey": "GOUNLI30",
+                "description": "Validity: 1 Day - With the NEW GoUNLI30, you can enjoy UNLI Calls to Globe/TM and UNLI ALLNET Texts, plus FREE UNLI CHAT with the best Chat Apps for only P30! Enjoy all these for 1 day, P30 lang! No WiFi needed!",
+                "sendTo": "8888",
+                "cost": 30
+            },
+            {
+                "promoKey": "GOUNLITXT49",
+                "description": "Validity: 7 Days - Go Bigger with nonstop kwentuhan! Send 7 days of unlimited texts to Globe and TM for P49. Mas updated ka sa latest happenings ng barkada with GoUNLITXT49!",
+                "sendTo": "8888",
+                "cost": 49
+            },
+            {
+                "promoKey": "UNLITXT20",
+                "description": "Validity: 1 Day - With UnliTxt, you can send unlimited text messages to Globe/TM subscribers and keep in touch with them. All day, all night.",
+                "sendTo": "8888",
+                "cost": 20
+            },
+            {
+                "promoKey": "UNLITXT40",
+                "description": "Validity: 2 Days - With UnliTxt, you can send unlimited text messages to Globe/TM subscribers and keep in touch with them. All day, all night.",
+                "sendTo": "8888",
+                "cost": 40
+            },
+            {
+                "promoKey": "UNLITXT80",
+                "description": "Validity: 5 Days - With UnliTxt, you can send unlimited text messages to Globe/TM subscribers and keep in touch with them. All day, all night.",
+                "sendTo": "8888",
+                "cost": 80
+            },
+            {
+                "promoKey": "SULITXT15",
+                "description": "Validity: 1 Day - Stretch the value of your money. Send 100 text messages to other Globe/TM subscribers for one day. So sulit for so much less.",
+                "sendTo": "8888",
+                "cost": 15
+            }
+        ],
+		"Internet": [
+            {
+                "promoKey": "GOSURF30",
+                "description": "Validity: 1 Day - 50MB mobile data and 200MB Spotify Basic",
+                "sendTo": "8888",
+                "cost": 30
+            },
+            {
+                "promoKey": "GOSURF15",
+                "description": "Validity: 2 Days - 20MB mobile data and 300MB Spotify Basic",
+                "sendTo": "8888",
+                "cost": 15
+            },
+            {
+                "promoKey": "GOSURF50",
+                "description": "Validity: 3 Days - 250MB mobile data and 400MB Spotify Basic",
+                "sendTo": "8888",
+                "cost": 50
+            },
+            {
+                "promoKey": "GOSURF99",
+                "description": "Validity: 30 Days - 100MB mobile data and 1GB Spotify Basic",
+                "sendTo": "8888",
+                "cost": 99
+            },
+            {
+                "promoKey": "GOSURF299",
+                "description": "Validity: 30 Days - 700MB mobile data and 1GB Spotify Premium",
+                "sendTo": "8888",
+                "cost": 299
+            },
+            {
+                "promoKey": "GOSURF499",
+                "description": "Validity: 30 Days - 1.5GB mobile data and 1GB Spotify Premium",
+                "sendTo": "8888",
+                "cost": 499
+            },
+            {
+                "promoKey": "GOSURF799",
+                "description": "Validity: 30 Days - 3GB mobile data and 1GB Spotify Premium",
+                "sendTo": "8888",
+                "cost": 799
+            },
+            {
+                "promoKey": "GOSURF999",
+                "description": "Validity: 30 Days - 5GB mobile data and 1GB Spotify Premium",
+                "sendTo": "8888",
+                "cost": 999
+            },
+            {
+                "promoKey": "GOSURF1799",
+                "description": "Validity: 30 Days - 10GB mobile data and 1GB Spotify Premium",
+                "sendTo": "8888",
+                "cost": 1799
+            },
+            {
+                "promoKey": "GOSURF2499",
+                "description": "Validity: 30 Days - 15GB mobile data and 1GB Spotify Premium",
+                "sendTo": "8888",
+                "cost": 2499
+            },
+            {
+                "promoKey": "SUPERSURF50",
+                "description": "Validity: 1 Day - Unlimited Mobile Data",
+                "sendTo": "8888",
+                "cost": 50
+            },
+            {
+                "promoKey": "SUPERSURF120",
+                "description": "Validity: 3 Days - Unlimited Mobile Data",
+                "sendTo": "8888",
+                "cost": 120
+            },
+            {
+                "promoKey": "SUPERSURF200",
+                "description": "Validity: 5 Days - Unlimited Mobile Data",
+                "sendTo": "8888",
+                "cost": 200
+            },
+            {
+                "promoKey": "SUPERSURF250",
+                "description": "Validity: 7 Days - Unlimited Mobile Data",
+                "sendTo": "8888",
+                "cost": 250
+            },
+            {
+                "promoKey": "SUPERSURF999",
+                "description": "Validity: 30 Days - Unlimited Mobile Data",
+                "sendTo": "8888",
+                "cost": 999
+            }
+        ],
+		"Others": [
+            {
+                "promoKey": "BAL",
+                "description": "Check available reward points",
+                "sendTo": "4438",
+                "cost": 1
+            },
+            {
+                "promoKey": "ITEMS",
+                "description": "Check available reward items for redemption",
+                "sendTo": "4438",
+                "cost": 1
+            },
+            {
+                "promoKey": "UALLPLUS25",
+                "description": "Validity 1 Day - Send all the text messages you want for only P25 a day. Text all day and catch up with your friends, no matter which network they belong to. Plus, enjoy 10 minutes of calls to Globe or TM numbers, and 1 hour of mobile internet with Super Unli All Txt 25!",
+                "sendTo": "8888",
+                "cost": 25
+            },
+            {
+                "promoKey": "GO19",
+                "description": "Validity 1 Day - With GoTXT19Plus, you can send unlimited texts to all networks, make 20 minutes of calls to Globe/TM, and surf up to 15MB for only P19 valid for 1 day. That's unli kwentuhan through text and call, and non-stop exchange of comments and likes on Facebook!",
+                "sendTo": "8888",
+                "cost": 19
+            },
+            {
+                "promoKey": "ATXTPLUS20",
+                "description": "Validity 1 Day - Don't let the conversations end. With Super AllTxtPlus 20, you can text everyone as much as you can! All you need is a minimum of Php20 load to send 250 local texts to ALL networks (Globe, Smart, Sun, Red, TNT) + 10 minutes voice calls (Globe/TM) for one day.",
+                "sendTo": "8888",
+                "cost": 20
+            },
+            {
+                "promoKey": "GOALLNET25",
+                "description": "Validity 1 Day - Unlimited texts to all networks + 75 mins of calls to Globe/TM + 5 mins of calls to all networks + 5MB Facebook",
+                "sendTo": "8888",
+                "cost": 25
+            },
+            {
+                "promoKey": "GOALLNET70",
+                "description": "Validity 3 Days - Unlimited texts to all networks + 115 mins of calls to Globe/TM + 5 mins of calls to all networks + 5MB Facebook",
+                "sendTo": "8888",
+                "cost": 20
+            },
+            {
+                "promoKey": "GOALLNET70",
+                "description": "Validity 3 Days - Unlimited texts to all networks + 115 mins of calls to Globe/TM + 5 mins of calls to all networks + 5MB Facebook",
+                "sendTo": "8888",
+                "cost": 70
+            },
+            {
+                "promoKey": "GOALLNET200",
+                "description": "Validity 7 Days - Unlimited texts to all networks + 6 hrs and 50 mins of calls to Globe/TM + 10 mins of calls to all networks + 10MB Facebook",
+                "sendTo": "8888",
+                "cost": 200
+            },
+            {
+                "promoKey": "GOALLNET300",
+                "description": "Validity 15 Days - Unlimited texts to all networks + 9 hrs and 40 mins of calls to Globe/TM + 15 mins of calls to all networks + 10MB Facebook",
+                "sendTo": "8888",
+                "cost": 300
+            },
+            {
+                "promoKey": "GOALLNET500",
+                "description": "Validity 30 Days - Unlimited texts to all networks + 11 hrs and 50 mins of calls to Globe/TM + 20 mins of calls to all networks + 10MB Facebook",
+                "sendTo": "8888",
+                "cost": 500
+            }
+        ]
+	}
+	
+}

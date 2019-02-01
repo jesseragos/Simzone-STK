@@ -1,0 +1,327 @@
+{
+
+	"BalInquiry": {
+		"receiverKeyword": "call",
+		"message": "*221#",
+		"cost": 0
+	},
+
+	"CardLoad": {
+		"voicePrompt": false,
+		"dialNumber": "*220#%rno%#",
+		"instructions": "Enter 9-digit call card number then the 5-digit PIN",
+        "pinLength": 14
+	},
+
+	"ShareLoad": {
+		"isNumReceiver": false,
+		"receiverKeyword": "2292",
+		"message": "%amt% 0%rno%"
+	},	
+	
+	"PromoOffers": {
+		"Call": [
+            {
+                "promo_key": "CTC10",
+                "description": "Validity: 1 Day - 50 texts to other networks, 50 Sun Texts, 10 minutes calls to Sun, Smart & Talk 'N Text, 10 minutes of mobile internet",
+                "send_to": "247",
+                "cost": 10
+            },
+            {
+                "promo_key": "CTC20",
+                "description": "Validity: 2 Days - 80 texts to other networks, 80 Sun texts, 25 minutes of Sun calls",
+                "send_to": "247",
+                "cost": 20
+            },
+            {
+                "promo_key": "CTC30",
+                "description": "Validity: 3 Days - 120 texts to other networks, 120 Sun texts, 40 minutes of Sun calls",
+                "send_to": "247",
+                "cost": 30
+            },
+            {
+                "promo_key": "CTC50",
+                "description": "Validity: 5 Days - 200 texts to other networks, 200 Sun texts, 70 minutes of Sun calls",
+                "send_to": "247",
+                "cost": 50
+            },
+            {
+                "promo_key": "CTC150",
+                "description": "Validity: 15 Days - 600 texts to other networks, 600 Sun texts, 250 minutes of Sun calls",
+                "send_to": "247",
+                "cost": 150
+            }
+        ],
+		"Text": [
+            {
+                "promo_key": "WIN10",
+                "description": "Validity: 1 Day - Unlimited Sun texts, 10 minutes calls to SUN, SMART, TNT, and 10 minutes mobile internet",
+                "send_to": "247",
+                "cost": 10
+            },
+            {
+                "promo_key": "TU20",
+                "description": "Validity: 2 Days - Unlimited Sun texts, 20 minutes Sun calls",
+                "send_to": "247",
+                "cost": 20
+            },
+            {
+                "promo_key": "TU50",
+                "description": "Validity: 7 Days - Unlimited Sun texts, 60 minutes Sun calls",
+                "send_to": "247",
+                "cost": 50
+            },
+            {
+                "promo_key": "TU60",
+                "description": "Validity: 7 Days - Unlimited Sun texts, 60 minutes Sun calls, 100 texts to other networks",
+                "send_to": "247",
+                "cost": 60
+            },
+            {
+                "promo_key": "TU150",
+                "description": "Validity: 30 Days - Unlimited Sun texts, 4 hours Sun calls",
+                "send_to": "247",
+                "cost": 150
+            },
+            {
+                "promo_key": "TU200",
+                "description": "Validity: 30 Days - Unlimited Sun texts, 4 hours Sun calls, 1,000 texts to other networks",
+                "send_to": "247",
+                "cost": 200
+            },
+            {
+                "promo_key": "TU300",
+                "description": "Validity: 30 Days - Unlimited Sun texts, 5 hours Sun calls (3 hours Sun calls + 2 hours calls to Sun, Smart & Talk 'N Text), 500 texts to other networks",
+                "send_to": "247",
+                "cost": 300
+            },
+            {
+                "promo_key": "TA15",
+                "description": "Validity: 1 Day - 100 Sun Texts, 25 texts to other networks, 25 international texts to 60 countries",
+                "send_to": "247",
+                "cost": 15
+            },
+            {
+                "promo_key": "TA20",
+                "description": "Validity: 1 Day - Unlimited Texts to All Networks",
+                "send_to": "247",
+                "cost": 20
+            },
+            {
+                "promo_key": "TA30",
+                "description": "Validity: 3 Days - Unlimited Texts to All Networks, unli text to all networks, unli Facebook",
+                "send_to": "247",
+                "cost": 30
+            },
+            {
+                "promo_key": "TA100",
+                "description": "Validity: 7 Days - Unlimited Texts to All Networks, 60 minutes Sun calls, 60 minutes mobile internet",
+                "send_to": "247",
+                "cost": 100
+            }
+        ],
+		"Internet": [
+            {
+                "promo_key": "NONSTOP25",
+                "description": "Validity: 1 Day - Non-stop surfing for 25MB and 300MB Spinnr Access & Streaming",
+                "send_to": "247",
+                "cost": 25
+            },
+            {
+                "promo_key": "NONSTOP50",
+                "description": "Validity: 3 Days - Non-stop surfing for 100MB and 500MB Spinnr Access & Streaming",
+                "send_to": "247",
+                "cost": 50
+            },
+            {
+                "promo_key": "NONSTOP100",
+                "description": "Validity: 5 Days - Non-stop surfing for 250MB and 1000MB Spinnr Access & Streaming",
+                "send_to": "247",
+                "cost": 100
+            },
+            {
+                "promo_key": "NONSTOP299",
+                "description": "Validity: 30 Days - Non-stop surfing and 1000MB Spinnr Access & Streaming",
+                "send_to": "247",
+                "cost": 299
+            },
+            {
+                "promo_key": "PHOTO10",
+                "description": "Validity: 1 Day - Get access to Instagram, Flickr, Pinterest, and Tumblr",
+                "send_to": "247",
+                "cost": 10
+            },
+            {
+                "promo_key": "SOCIAL10",
+                "description": "Validity: 1 Day - Get access to Facebook, Twitter, Waze, Foursquare, Google Plus, LinkedIn, and Path",
+                "send_to": "247",
+                "cost": 10
+            },
+            {
+                "promo_key": "EMAIL10",
+                "description": "Validity: 1 Day - Get access to Gmail, Yahoo Mail, Outlook.com, and Exchange",
+                "send_to": "247",
+                "cost": 10
+            },
+            {
+                "promo_key": "CHAT10",
+                "description": "Validity: 1 Day - Get access to Line, WeChat, FB Messenger, WhatsApp, Viber, Kakao, Chikka Messenger, and Oist",
+                "send_to": "247",
+                "cost": 10
+            },
+            {
+                "promo_key": "YOUTUBE5",
+                "description": "Validity: 1 Day - Get access of 65MB data to Youtube, Daily Motion, Vimeo, Dubsmash, and Viewstream",
+                "send_to": "247",
+                "cost": 5
+            },
+            {
+                "promo_key": "YOUTUBE25",
+                "description": "Validity: 1 Day - Get access of 160MB data to Youtube, Daily Motion, Vimeo, Dubsmash, and Viewstream",
+                "send_to": "247",
+                "cost": 25
+            },
+            {
+                "promo_key": "YOUTUBE50",
+                "description": "Validity: 1 Day - Get access of 400MB data to Youtube, Daily Motion, Vimeo, Dubsmash, and Viewstream",
+                "send_to": "247",
+                "cost": 50
+            },
+            {
+                "promo_key": "YOUTUBE99",
+                "description": "Validity: 1 Day - Get access of 600MB data to Youtube, Daily Motion, Vimeo, Dubsmash, and Viewstream",
+                "send_to": "247",
+                "cost": 99
+            },
+            {
+                "promo_key": "YOUTUBE199",
+                "description": "Validity: 1 Day - Get access of 1200MB data to Youtube, Daily Motion, Vimeo, Dubsmash, and Viewstream",
+                "send_to": "247",
+                "cost": 199
+            }
+        ],
+		"Others": [            
+            {
+                "promo_key": "SCTC15",
+                "description": "Validity: 1 Day - 50 Sun Texts, 50 Texts to Other Networks, 10 Minutes Calls to Sun, Smart and Talk 'N Text, 10 Minutes of Mobile Internet + 1 Day Music Streaming at Spinnr and 1 Free Song Download",
+                "send_to": "247",
+                "cost": 15
+            },
+            {
+                "promo_key": "SWIN15",
+                "description": "Validity: 1 Day - Unlimited Sun texts, 10 Minutes Calls to Sun, Smart and Talk ‘N Text, 10 Minutes Mobile Internet + 1 Day Music Streaming at Spinnr and 1 Free Song Download",
+                "send_to": "247",
+                "cost": 15
+            },
+            {
+                "promo_key": "CTM15",
+                "description": "Validity: 1 Day - 150 All Net Texts, 5 Minutes Sun Calls + 1 Day FREE Music Streaming ",
+                "send_to": "247",
+                "cost": 15
+            },
+            {
+                "promo_key": "CTU25",
+                "description": "Validity: 1 Day - Unlimited texts to All Networks, Unlimited Chat",
+                "send_to": "247",
+                "cost": 25
+            },
+            {
+                "promo_key": "CTU30",
+                "description": "Validity: 1 Day - Unlimited texts to All Networks, Unlimited Calls to Sun, Smart & Talk 'N Text,  Unlimited Chat*",
+                "send_to": "247",
+                "cost": 30
+            },
+            {
+                "promo_key": "CTU50",
+                "description": "Validity: 2 Days - Unlimited Texts to All Networks",
+                "send_to": "247",
+                "cost": 50
+            },
+            {
+                "promo_key": "CTU100",
+                "description": "Validity: 5 Days - Unlimited Texts to All Networks",
+                "send_to": "247",
+                "cost": 100
+            },
+            {
+                "promo_key": "CTU150",
+                "description": "Validity: 5 Days - Unlimited Texts to All Networks with Free P25 Regular Load",
+                "send_to": "247",
+                "cost": 150
+            },
+            {
+                "promo_key": "CTU450",
+                "description": "Validity: 30 Days - Unlimited Texts to All Networks with Free P50 Regular Load",
+                "send_to": "247",
+                "cost": 450
+            },
+            {
+                "promo_key": "UTT20",
+                "description": "Validity: 2 Days - Unlimited Texts to Sun, TNT, & Smart with unli Facebook",
+                "send_to": "247",
+                "cost": 20
+            },
+			{
+                "promo_key": "UTT30",
+                "description": "Validity: 2 Days - Unlimited Texts to Sun, TNT & Smart with 30 mins call to Sun, TNT, & Smart and unli Facebook",
+                "send_to": "247",
+                "cost": 30
+            },
+            {
+                "promo_key": "TRIO20",
+                "description": "Validity: 1 Day - 200 texts to Sun, Smart & Talk 'N Text, 13 minutes calls (10 minutes Sun calls & 3 minutes calls to Sun, Smart, Talk 'N Text PLUS PLDT & DIGITEL)",
+                "send_to": "247",
+                "cost": 20
+            },
+            {
+                "promo_key": "TRIO30",
+                "description": "Validity: 1 Day - 300 texts to Sun, Smart & Talk 'N Text, 25 minutes calls (20 minutes Sun calls & 5minutes calls to Sun, Smart, Talk 'N Text PLUS PLDT & DIGITEL)",
+                "send_to": "247",
+                "cost": 30
+            },
+            {
+                "promo_key": "TRINET300",
+                "description": "Validity: 30 Days - Unlimited Texts to Sun, Smart & Talk N' Text, 300 minutes of calls to Sun, Smart & Talk 'N Text, and unli Facebook",
+                "send_to": "247",
+                "cost": 300
+            },
+            {
+                "promo_key": "TRINETCALL99",
+                "description": "Validity: 30 Days - 60 minutes of calls valid for Smart and TNT numbers, 1 hour of mobile internet",
+                "send_to": "247",
+                "cost": 99
+            },
+            {
+                "promo_key": "TRINETSMS99",
+                "description": "Validity: 30 Days - 1000 SMS valid for Smart and TnT numbers, 1 hour of mobile internet",
+                "send_to": "247",
+                "cost": 99
+            },
+            {
+                "promo_key": "TRINETCOMBO199",
+                "description": "Validity: 30 Days - 1500 SMS and 60 minutes of calls valid for Smart and TNT numbers, 2 hours of mobile internet",
+                "send_to": "247",
+                "cost": 199
+            },
+            {
+                "promo_key": "TRINETCTU399",
+                "description": "Validity: 30 Days - Unli Calls and Texts to Sun, Smart, and Talk N' Text. 500 Texts to All Networks, 10 hours of mobile internet",
+                "send_to": "247",
+                "cost": 399
+            },
+			{
+                "promo_key": "TAPLUS25",
+                "description": "Validity: 1 Day - 60 minutes of calls valid for Smart numbers, unli text to all networks, and 30 mins of mobile internet",
+                "send_to": "247",
+                "cost": 25
+            },
+			{
+                "promo_key": "TAPLUS100",
+                "description": "Validity: 7 Days - 60 minutes of calls valid for Smart numbers, unli text to all networks, and 60 mins of mobile internet",
+                "send_to": "247",
+                "cost": 100
+            }
+        ]
+    }
+	
+}

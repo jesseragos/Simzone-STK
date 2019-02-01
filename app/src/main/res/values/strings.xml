@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simzone STK</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- UI labels -->
+    <string name="check_bal_info">Check bal info</string>
+    <string name="undefined_bal">-</string>
+    <string name="share_load_inst">Enter receiver number and amount of load to share\n\n
+                                   NOTE:\n
+                                   - Sharing load includes extra charge (ex. P1)\n
+                                   - Phone number should be 11 digits (ex. 09876543210)\n
+                                   - Assure that amount to share is supported by your network\n
+                                   - Current SIM network should be same as receiver number\n
+                                   - The system won\'t hold any responsibilities for load share issues</string>
+    <string name="receive_num">Receiver number</string>
+    <string name="load_amount">Load amount</string>
+    <string name="load_card_pin">Load Card PIN</string>
+    <string name="current_bal">Current bal:</string>
+    <string name="no_bookmarks">No bookmarks yet</string>
+    <string name="no_transactions">No transactions yet</string>
+
+    <!-- Font names -->
+    <string name="button_font">fonts/PTSansCaption.ttf</string>
+    <string name="main_font">fonts/tahoma.ttf</string>
+
+    <!-- Activity titles -->
+    <string name="title_activity_promo_list">Promo List</string>
+    <string name="title_activity_promo_categories">Promo Categories</string>
+    <string name="title_activity_transactions">Transactions</string>
+    <string name="title_activity_bookmarks">Bookmarks</string>
+
+    <!-- Option titles -->
+    <string name="option_help">Help</string>
+    <string name="option_about">About</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_about">About</string>
+
+</resources>

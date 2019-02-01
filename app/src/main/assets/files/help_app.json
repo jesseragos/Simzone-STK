@@ -1,0 +1,36 @@
+[
+
+    {
+      "title": "Loading from load card",
+      "instructions": "Tap Load Card -> Enter PIN when in dialog or voice call prompt -> Wait for SMS reply confirming promo subscription"
+    },
+    {
+      "title": "Updating balance",
+      "instructions": "Tap the update button at the balance info status bar located at bottom -> Wait for SMS reply to update balance"
+    },
+    {
+      "title": "Check Balance information",
+      "instructions": "Tap Check Balance info -> A dialog shows current balance info from recent SMS reply"
+    },
+    {
+      "title": "Subscribing to a promo",
+      "instructions": "Tap Promos -> Select a promo category -> Tap a promo to send and subscribe"
+    },
+    {
+      "title": "Bookmarking promo",
+      "instructions": "Tap Promos -> Select a category -> Long press a promo to show dialog prompting to add promo to bookmarks -> See Bookmarks to view promos added"
+    },
+    {
+      "title": "Unbookmarking promo",
+      "instructions": "Tap Bookmarks -> Long press a promo to remove it from bookmarks"
+    },
+    {
+      "title": "Sharing load amount",
+      "instructions": "Tap Share Load -> Enter receiver phone number and load amount then confirm sharing load"
+    },
+    {
+      "title": "Go to carrier site services",
+      "instructions": "Tap carrier logo to access carrier site services"
+    }
+
+]

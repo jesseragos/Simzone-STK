@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- App theme colors -->
+    <color name="base_color">#ff575757</color>
+    <color name="theme_color">#ff314450</color>
+    <color name="accent_color">#ffe2e852</color>
+
+    <!-- Stat bar colors -->
+    <color name="stat_textcolor">#ff575757</color>
+    <color name="currentbal_bar_color">#ff7ee8a6</color>
+    <color name="currentbal_textcolor">#ff000000</color>
+
+    <!-- Stat bar colors -->
+    <color name="std_msg">#ff838383</color>
+
+</resources>

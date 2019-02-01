@@ -1,0 +1,459 @@
+{
+
+	"BalInquiry": {
+		"receiverKeyword": "214",
+		"message": "?1515",
+		"cost": 0
+	},
+
+	"CardLoad": {
+		"voicePrompt": false,
+		"dialNumber": "1510%pin%",
+		"instructions": "Enter 14-digit PIN",
+        "pinLength": 14
+	},
+	
+	"ShareLoad": {
+		"isNumReceiver": false,
+		"receiverKeyword": "808",
+		"message": "0%rno% %amt%"
+	},	
+
+	"PromoOffers": {
+		"Call": [
+            {
+                "promoKey": "TALK500",
+                "description": "Validity: 30 Days - Enjoy unli calls to Smart/TNT",
+                "sendTo": "6400",
+                "cost": 500
+            },
+            {
+                "promoKey": "TALK100",
+                "description": "Validity: 5 Days - Enjoy unli calls to Smart/TNT",
+                "sendTo": "6400",
+                "cost": 100
+            },
+            {
+                "promoKey": "TALK100",
+                "description": "Validity: 5 Days - Enjoy unli calls to Smart/TNT",
+                "sendTo": "6406",
+                "cost": 100
+            }
+        ],
+		"Text": [
+            {
+                "promoKey": "TOTAL20",
+                "description": "Validity: 1 Day - Enjoy all-day unli texts to Smart, Sun and Talk N' Text. Also get 20-min tri-net calls + 20 all-net SMS.",
+                "sendTo": "2477",
+                "cost": 20
+            },
+            {
+                "promoKey": "TRINET400",
+                "description": "Validity: 30 Days - Reconnecting with someone just became easier and better. Receive 3000 texts to all networks, 500 mins of calls to Smart/TNT/SUN plus 35MB data",
+                "sendTo": "2477",
+                "cost": 400
+            },
+            {
+                "promoKey": "TRINET300",
+                "description": "Validity: 30 Days - Now, a TriNet offer that is available for all three networks! Connect on Smart/Sun/TnT and enjoy unli text, 300 mins. of calls, and 30MB of mobile Internet",
+                "sendTo": "2477",
+                "cost": 300
+            },
+            {
+                "promoKey": "TRINET200",
+                "description": "Validity: 15 Days - Reconnecting with someone just became easier and better. Receive 1500 texts to all networks, 250 mins of calls to Smart/TNT/SUN plus 75MB data",
+                "sendTo": "2477",
+                "cost": 200
+            },
+            {
+                "promoKey": "TRINET40",
+                "description": "Validity: 1 Day - Enjoy unlimited tri-net calls, texts and Facebook with Tri-net 40!",
+                "sendTo": "2949",
+                "cost": 40
+            },
+            {
+                "promoKey": "TRINET30",
+                "description": "Validity: 1 Day - Reconnecting with someone just became easier and better. Receive 200 texts to all networks, 50 mins of calls to Smart/TNT/SUN plus 10MB data",
+                "sendTo": "2477",
+                "cost": 30
+            },
+            {
+                "promoKey": "TRINET15",
+                "description": "Validity: 1 Day - Reconnecting just became easier! Enjoy unlimited texts to all your Smart/TNT/SUN",
+                "sendTo": "2477",
+                "cost": 15
+            },
+            {
+                "promoKey": "AT10",
+                "description": "Validity: 1 Day - Enjoy unli SMS to all networks and unli Facebook, FB Messenger & Viber",
+                "sendTo": "9999",
+                "cost": 10
+            },
+			{
+                "promoKey": "AT12",
+                "description": "Validity: 1 Day - Enjoy 150 SMS to all networks + Free Viber",
+                "sendTo": "9999",
+                "cost": 12
+            },
+            {
+                "promoKey": "AT60",
+                "description": "Validity: 5 Days - Enjoy unli SMS to all networks and unli Facebook, FB Messenger & Viber and 30 minutes calls to Smart/TNT",
+                "sendTo": "9999",
+                "cost": 60
+            },
+            {
+                "promoKey": "L30",
+                "description": "Validity: 2 Days - Lets you send 300 SMS to all networks and enjoy 20 mins of calls to Smart/TNT",
+                "sendTo": "2266",
+                "cost": 30
+            },
+            {
+                "promoKey": "L20",
+                "description": "Validity: 1 Day - Lets you send 250 SMS to all networks and enjoy 10 mins of calls to Smart/TNT",
+                "sendTo": "2266",
+                "cost": 20
+            },
+            {
+                "promoKey": "TEXT200",
+                "description": "Validity: 30 Days - Unlimited tri-net texts",
+                "sendTo": "6406",
+                "cost": 200
+            },
+            {
+                "promoKey": "CALL400",
+                "description": "Validity: 30 Days - Enjoy 950 minutes of calls to Smart and Talk ‘N Text",
+                "sendTo": "6406",
+                "cost": 400
+            },
+            {
+                "promoKey": "CALL200",
+                "description": "Validity: 15 Days - Enjoy 450 minutes of calls to Smart and Talk ‘N Text",
+                "sendTo": "6406",
+                "cost": 200
+            },
+            {
+                "promoKey": "CALL100",
+                "description": "Validity: 7 Days - Enjoy 200 minutes of calls to Smart and Talk ‘N Text",
+                "sendTo": "6406",
+                "cost": 100
+            }
+        ],
+		"Internet": [
+            {
+                "promoKey": "GIGA50",
+                "description": "Validity: 3 Days - Enjoy 1GB internet data + 300MB for iFlix, YouTube, Spinnr, Vimeo, Dailymotion, & Dubsmash + 1 Day Full Access to iWant TV + Now with unli texts to all networks",
+                "sendTo": "9999",
+                "cost": 50
+            },
+            {
+                "promoKey": "GIGA99",
+                "description": "Validity: 7 Days - Enjoy 1.5GB internet data + 300MB for iFlix, YouTube, Spinnr, Vimeo, Dailymotion, & Dubsmash + 1 Day Full Access to iWant TV",
+                "sendTo": "9999",
+                "cost": 99
+            },
+            {
+                "promoKey": "GIGA299",
+                "description": "Validity: 30 Days - Enjoy 2GB internet data + 1.1GB for iFlix, YouTube, Spinnr, Vimeo, Dailymotion, & Dubsmash + 7 Day Full Access to iWant TV",
+                "sendTo": "9999",
+                "cost": 299
+            },
+            {
+                "promoKey": "GIGA799",
+                "description": "Validity: 30 Days - Enjoy 4.5GB internet data + 1.1GB for iFlix, YouTube, Spinnr, Vimeo, Dailymotion, & Dubsmash + 7 Day Full Access to iWant TV",
+                "sendTo": "9999",
+                "cost": 799
+            },
+			{
+                "promoKey": "ALLOUT20",
+                "description": "Validity: 1 Day - Enjoy 150MB internet data + Free Facebook + Unli All Net SMS + 20 mins calls to Smart, TNT, and Sun",
+                "sendTo": "9999",
+                "cost": 20
+            },
+			{
+                "promoKey": "ALLOUT30",
+                "description": "Validity: 2 Days - Enjoy 300MB internet data + Free Facebook + Unli All Net SMS + 30 mins calls to Smart, TNT, and Sun",
+                "sendTo": "9999",
+                "cost": 30
+            },
+			{
+                "promoKey": "ALLOUT50",
+                "description": "Validity: 3 Days - Enjoy 500MB internet data + Free Facebook + Unli All Net SMS + 50 mins calls to Smart, TNT, and Sun",
+                "sendTo": "9999",
+                "cost": 50
+            },
+			{
+                "promoKey": "ALLOUT99",
+                "description": "Validity: 7 Days - Enjoy 1GB internet data + Free Facebook + Unli All Net SMS + 100 mins calls to Smart, TNT, and Sun",
+                "sendTo": "9999",
+                "cost": 99
+            },
+            {
+                "promoKey": "SUPER10",
+                "description": "Validity: 1 Day - You can unli text and unli chat your friends on FB Messenger, Viber, Whatsapp, Wechat, and Line.",
+                "sendTo": "9999",
+                "cost": 10
+            },
+            {
+                "promoKey": "FB2",
+                "description": "Validity: 1 Day - Like, share, comment, and post on your phone all you want for just P2! Enjoy unlimited Facebook for 1 whole day! To avail, you must be registered to an existing prepaid promo.",
+                "sendTo": "6406",
+                "cost": 2
+            },
+            {
+                "promoKey": "Allin99",
+                "description": "Validity: 7 Days - Enjoy Unli All Net texts, 100 minutes of calls to Smart, Talk ‘N Text, and Sun, 80MB of surfing data and Unli Facebook",
+                "sendTo": "2827",
+                "cost": 99
+            },
+            {
+                "promoKey": "PISO APP",
+                "description": "Validity: 5 Hours - Enjoy 5 hours consumable Internet on-the-go for only P1/day with the new Piso Sampling!",
+                "sendTo": "211",
+                "cost": 1
+            },
+            {
+                "promoKey": "Unli 50",
+                "description": "Validity: 1 Day - You can now surf all you want",
+                "sendTo": "211",
+                "cost": 50
+            },
+            {
+                "promoKey": "Unli 300",
+                "description": "Validity: 7 Days - You can now surf all you want for",
+                "sendTo": "211",
+                "cost": 300
+            },
+            {
+                "promoKey": "Unli 999",
+                "description": "Validity: 30 Days - You can now surf all you want for",
+                "sendTo": "211",
+                "cost": 999
+            },
+			{
+                "promoKey": "UCT25",
+                "description": "Validity: 1 Day - Unli calls to Smart and TNT + Unli SMS to Smart, TNT and Sun + 50 SMS to all networks + Unli Facebook, FB Messenger & Viber",
+                "sendTo": "9999",
+                "cost": 25
+            },
+            {
+                "promoKey": "ON 20",
+                "description": "Validity: 1 Day - Enjoy 45MB of surfing and free 20 tri-net SMS on your mobile",
+                "sendTo": "2200",
+                "cost": 20
+            },
+            {
+                "promoKey": "ON 30",
+                "description": "Validity: 1 Day - Enjoy 75MB of surfing the web and free 30 tri-net texts on your mobile",
+                "sendTo": "2200",
+                "cost": 30
+            },
+            {
+                "promoKey": "ON 99",
+                "description": "Validity: 30 Days - Enjoy 50MB of surfing the web on your mobile",
+                "sendTo": "2200",
+                "cost": 99
+            },
+            {
+                "promoKey": "ON 199",
+                "description": "Validity: 15 Days - Enjoy 180MB of surfing the web on your mobile",
+                "sendTo": "2200",
+                "cost": 199
+            },
+            {
+                "promoKey": "ON 299",
+                "description": "Validity: 30 Days - Enjoy 250MB of surfing the web on your mobile",
+                "sendTo": "2200",
+                "cost": 299
+            },
+            {
+                "promoKey": "ON 499",
+                "description": "Validity: 30 Days - Enjoy 1000MB of surfing the web on your mobile",
+                "sendTo": "2200",
+                "cost": 499
+            },
+            {
+                "promoKey": "ON 995",
+                "description": "Validity: 30 Days - Enjoy 2000MB of surfing the web on your mobile",
+                "sendTo": "2200",
+                "cost": 995
+            },
+			{
+                "promoKey": "BIG5",
+                "description": "Validity: 1 Day - Enjoy 15MB of surfing the web on your mobile",
+                "sendTo": "9999",
+                "cost": 5
+            },
+			{
+                "promoKey": "BIG10",
+                "description": "Validity: 1 Day - Enjoy 40MB of surfing the web on your mobile with free 200MB music streaming from Spinnr",
+                "sendTo": "9999",
+                "cost": 10
+            },
+			{
+                "promoKey": "BYTES15",
+                "description": "Validity: 2 Days - Enjoy 40MB of surfing the web on your mobile with free 300MB music streaming from Spinnr, iflix, YouTube, Vimeo, Dailymotion, Dubsmash & Skype Qik",
+                "sendTo": "9999",
+                "cost": 15
+            },
+			{
+                "promoKey": "BIG30",
+                "description": "Validity: 30 Days - Enjoy 100MB of surfing the web on your mobile with free 400MB music streaming from Spinnr",
+                "sendTo": "9999",
+                "cost": 30
+            }
+        ],
+		"Others": [
+            {
+                "promoKey": "POINTS",
+                "description": "Check current Smart Rewards balance",
+                "sendTo": "9800",
+                "cost": 0
+            },
+            {
+                "promoKey": "MONEY",
+                "description": "Smart Money Menu",
+                "sendTo": "343",
+                "cost": 0
+            },
+            {
+                "promoKey": "UPDATE MENU",
+                "description": "Update Smart Money Menu",
+                "sendTo": "343",
+                "cost": 0
+            },
+            {
+                "promoKey": "INTERNET",
+                "description": "Update Smart Money Menu",
+                "sendTo": "343",
+                "cost": 0
+            },
+            {
+                "promoKey": "Text 50",
+                "description": "Validity: 7 Days - Unlimited tri-net texts",
+                "sendTo": "6406",
+                "cost": 50
+            },
+            {
+                "promoKey": "Allin99",
+                "description": "Validity: 7 Days - Enjoy Unli All Net texts, 100 minutes of calls to Smart, Talk ‘N Text, and Sun, 80MB of surfing data and Unli Facebook",
+                "sendTo": "2827",
+                "cost": 99
+            },
+            {
+                "promoKey": "UNLI600",
+                "description": "Validity: 30 Days - Enjoy unli calls & texts to Smart/TNT + 2000 texts to all networks",
+                "sendTo": "6406",
+                "cost": 600
+            },
+            {
+                "promoKey": "UNLI400",
+                "description": "Validity: 15 Days - Enjoy unli calls & texts to Smart/TNT + 1000 texts to all networks",
+                "sendTo": "6406",
+                "cost": 400
+            },
+            {
+                "promoKey": "UNLI299",
+                "description": "Validity: 15 Days - Enjoy unlimited calls & texts to Smart/TNT + 150 texts to all networks",
+                "sendTo": "6406",
+                "cost": 299
+            },
+            {
+                "promoKey": "UNLI200",
+                "description": "Validity: 7 Days - Enjoy unlimited calls & texts to Smart/TNT + 500 texts to all networks",
+                "sendTo": "6406",
+                "cost": 200
+            },
+            {
+                "promoKey": "UNLI150",
+                "description": "Validity: 7 Days - Enjoy unlimitied calls & texts to Smart/TNT + 100 texts to all networks",
+                "sendTo": "6406",
+                "cost": 150
+            },
+            {
+                "promoKey": "UNLI100",
+                "description": "Validity: 4 Days - Enjoy unli calls & texts to Smart/TNT + 80 texts to all networks",
+                "sendTo": "6406",
+                "cost": 100
+            },
+            {
+                "promoKey": "UNLI50",
+                "description": "Validity: 2 Days - Enjoy two days of unlimited calls to SMART/TNT/SUN, unlimited texts to all networks + FREE chat & surf (up to 30MB)",
+                "sendTo": "6406",
+                "cost": 50
+            },
+            {
+                "promoKey": "UNLI35",
+                "description": "Validity: 1 Day - Enjoy unli calls & texts to Smart/TNT/Sun + 150 texts to all",
+                "sendTo": "6406",
+                "cost": 35
+            },
+            {
+                "promoKey": "UNLI30",
+                "description": "Validity: 1 Day - Enjoy unlimited calls to SMART/TNT/SUN, unlimited texts to all networks + 100MB internet data + Unli Spinnr",
+                "sendTo": "6406",
+                "cost": 30
+            },
+            {
+                "promoKey": "UNLI25",
+                "description": "Validity: 1 Day - Enjoy unlimited calls to SMART/TNT, unlimited texts to SMART/TNT/SUN, 50 texts to all networks + FREE chat & surf (up to 15MB)",
+                "sendTo": "6406",
+                "cost": 25
+            },
+			{
+                "promoKey": "UCT25",
+                "description": "Validity: 1 Day - Unli calls to Smart and TNT + Unli SMS to Smart, TNT and Sun + 50 SMS to all networks + Unli Facebook, FB Messenger & Viber",
+                "sendTo": "9999",
+                "cost": 25
+            },
+			{
+                "promoKey": "UCT50",
+                "description": "Validity: 3 Days - Unli calls to Smart, TNT and Sun + Unli SMS to all networks + 50MB Internet data w/ PROMO of free 100MB",
+                "sendTo": "9999",
+                "cost": 50
+            },
+			{
+                "promoKey": "UCT100",
+                "description": "Validity: 7 Days - Unli calls to Smart, TNT and Sun + Unli SMS to all networks + 150MB Internet data",
+                "sendTo": "9999",
+                "cost": 100
+            },
+			{
+                "promoKey": "UCT350",
+                "description": "Validity: 30 Days - Unli calls to Smart, TNT and Sun + Unli SMS to all networks + 500MB Internet data",
+                "sendTo": "9999",
+                "cost": 350
+            },
+			{
+                "promoKey": "MEGA250",
+                "description": "Validity: 30 Days - 180 mins calls to Smart, TNT and Sun + Unli SMS to all networks + 100MB Internet data",
+                "sendTo": "9999",
+                "cost": 250
+            },
+			{
+                "promoKey": "FCT30",
+                "description": "Validity: 3 Days - You get 6 IDD minutes or texts. This offer is available in the following countries: Saudi, UAE, Kuwait, Japan, Australia, UK, Italy and Taiwan.",
+                "sendTo": "9999",
+                "cost": 30
+            },
+            {
+                "promoKey": "FCT50",
+                "description": "Validity: 7 Days - You get 5 IDD minutes or texts. This offer is available in the following countries: Saudi, UAE, Kuwait, Japan, Australia, UK, Italy and Taiwan.",
+                "sendTo": "9999",
+                "cost": 50
+            },			
+            {
+                "promoKey": "TXT35",
+                "description": "Validity: 7 Days - You get 10 IOSMS, 55 on net SMS and 5 off net SMS.",
+                "sendTo": "433",
+                "cost": 35
+            },
+            {
+                "promoKey": "TXT65",
+                "description": "Validity: 7 Days - You get 20 IOSMS, 90 on net SMS and 10 off net SMS.",
+                "sendTo": "433",
+                "cost": 60
+            }
+        ]
+	}
+	
+}

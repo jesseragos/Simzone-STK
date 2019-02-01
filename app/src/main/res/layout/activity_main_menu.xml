@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainMenu"
+    android:id="@+id/main_layout" >
+
+    <ImageView
+        android:layout_width="250px"
+        android:layout_height="100px"
+        android:id="@+id/carrier_banner"
+        android:onClick="goToCarrierSite"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+
+    <GridView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bal_info_bar"
+        android:layout_below="@+id/carrier_banner"
+        android:numColumns="2"
+        android:id="@+id/menu_btns_layout" />
+
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/theme_color"
+        android:id="@+id/bal_info_bar" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/current_bal"
+            android:id="@+id/current_bal_lbl"
+            android:textColor="@color/accent_color"
+            android:textSize="18dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            android:gravity="center_vertical"
+            android:layout_marginRight="7dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/current_bal_lbl"
+            android:layout_centerVertical="true"
+            android:id="@+id/current_bal_val"
+            android:textColor="@color/currentbal_textcolor"
+            android:textSize="20dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="0dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/current_bal_bar"
+            android:singleLine="true"
+            android:overScrollMode="ifContentScrolls"
+            android:minWidth="120dp"
+            android:editable="false"
+            android:text="@string/undefined_bal" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_bal"
+            android:src="@drawable/refresh"
+            android:onClick="updateBalance"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
