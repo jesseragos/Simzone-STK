@@ -9,7 +9,7 @@ Supported network carriers:
 - TnT
 
 Features:
-- Get to see latest load balance by a tap og a button
+- Get to see latest load balance by a tap of a button
 - Load mobile number provided from load card PIN
 - Register to included promos by carrier
 - Bookmark Promos
